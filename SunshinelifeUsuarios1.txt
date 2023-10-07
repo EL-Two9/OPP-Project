@@ -1,0 +1,12 @@
+Kevin/M/18/60/1.70/20,76/Mantener peso
+Maria/F/18/60/171/0/Superávit
+Maria/F/18/60/1.71/20,52/Mantener peso
+David/M/25/75/1.80/23,15/Mantener peso
+Elena/F/25/75/180/0/Superávit
+Elena/F/25/75/1.80/23,15/Mantener peso
+Kevin /M/18/62/1.71/21,2/Mantener peso
+Eduard/M/19/72/1.84/21,27/Mantener peso
+Karen/F/18/62/1.58/24,84/Mantener peso
+Karen/F/18/63/1.58/25,24/Déficit calórico
+Juan Manuel/M/19/61/1.73/20,38/Mantener peso
+Eduard Patiño/M/20/80/1.84/23,63/Mantener peso

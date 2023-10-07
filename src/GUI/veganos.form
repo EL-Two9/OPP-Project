@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Men&#xfa;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="BACK_SPACE"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Volver al Inicio"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="M"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Volver al Men&#xfa;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="ESCAPE"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Salir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Regresar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem4ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+              <Component id="txt_total2" min="-2" pref="91" max="-2" attributes="0"/>
+              <EmptySpace pref="83" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="305" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="343" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="jButton1" pref="31" max="32767" attributes="0"/>
+                  <Component id="jButton2" max="32767" attributes="0"/>
+                  <Component id="jButton3" alignment="0" max="32767" attributes="0"/>
+                  <Component id="txt_total2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable2">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="6" rowCount="35">
+                <Column editable="false" title="Carbohidratos" type="java.lang.String">
+                  <Data value="Calabaza"/>
+                  <Data value="Arepa"/>
+                  <Data value="Remolacha"/>
+                  <Data value="Arroz Integral"/>
+                  <Data value="Harina de Maiz"/>
+                  <Data value="Harina de Trigo"/>
+                  <Data value="Yuca"/>
+                  <Data value="Ciruela Pasa"/>
+                  <Data value="Arracacha"/>
+                  <Data value="Fideos"/>
+                  <Data value="Acelgas"/>
+                  <Data value="Cereza"/>
+                  <Data value="Ciruela"/>
+                  <Data value="Durazno"/>
+                  <Data value="Fresa"/>
+                  <Data value="Guayaba"/>
+                  <Data value="Kiwi"/>
+                  <Data value="Mandarina"/>
+                  <Data value="Mango"/>
+                  <Data value="Manzana"/>
+                  <Data value="Maracuy&#xe1;"/>
+                  <Data value="Mel&#xf3;n"/>
+                  <Data value="Papa"/>
+                  <Data value="Naranja"/>
+                  <Data value="Papaya"/>
+                  <Data value="Pera"/>
+                  <Data value="Pi&#xf1;a"/>
+                  <Data value="Sand&#xed;a"/>
+                  <Data value="Uva"/>
+                  <Data value="Uva Pasa"/>
+                  <Data value="Fideos de Harina Integral"/>
+                  <Data value="&#xd1;oquis"/>
+                  <Data value="Avena"/>
+                  <Data value="Bulgur"/>
+                  <Data value="Sorgo"/>
+                </Column>
+                <Column editable="false" title="Calorias" type="java.lang.String">
+                  <Data value="45"/>
+                  <Data value="219"/>
+                  <Data value="43"/>
+                  <Data value="350"/>
+                  <Data value="349"/>
+                  <Data value="341"/>
+                  <Data value="148"/>
+                  <Data value="177"/>
+                  <Data value="95"/>
+                  <Data value="369"/>
+                  <Data value="30"/>
+                  <Data value="65"/>
+                  <Data value="51"/>
+                  <Data value="49"/>
+                  <Data value="35"/>
+                  <Data value="44"/>
+                  <Data value="46"/>
+                  <Data value="44"/>
+                  <Data value="61"/>
+                  <Data value="55"/>
+                  <Data value="66"/>
+                  <Data value="25"/>
+                  <Data value="164"/>
+                  <Data value="48"/>
+                  <Data value="35"/>
+                  <Data value="54"/>
+                  <Data value="53"/>
+                  <Data value="18"/>
+                  <Data value="68"/>
+                  <Data value="69"/>
+                  <Data value="359"/>
+                  <Data value="246"/>
+                  <Data value="389"/>
+                  <Data value="342"/>
+                  <Data value="339"/>
+                </Column>
+                <Column editable="false" title="Proteinas " type="java.lang.String">
+                  <Data value="Soja"/>
+                  <Data value="Avellana"/>
+                  <Data value="Linaza"/>
+                  <Data value="Almendra"/>
+                  <Data value="Man&#xed;"/>
+                  <Data value="Casta&#xf1;a"/>
+                  <Data value="Nuez"/>
+                  <Data value="Pi&#xf1;on"/>
+                  <Data value="Semillas de S&#xe9;samo"/>
+                  <Data value="Centeno"/>
+                  <Data value="Maiz"/>
+                  <Data value="Seitan"/>
+                  <Data value="Tofu"/>
+                  <Data value="Frijoles"/>
+                  <Data value="Tempeh"/>
+                  <Data value="Seitan"/>
+                  <Data value="Jackfruit"/>
+                  <Data value="Garbanzos"/>
+                  <Data value="Lentejas"/>
+                  <Data value="Crema de Man&#xed;"/>
+                  <Data value="Humus"/>
+                  <Data value="Guavas"/>
+                  <Data value="Quinoa"/>
+                  <Data value="Champi&#xf1;ones"/>
+                  <Data value="Guisante"/>
+                  <Data value="Alubia"/>
+                  <Data value="Espirulina Desecada"/>
+                  <Data value="Germen de Trigo"/>
+                  <Data value="Alga nori desecada"/>
+                  <Data value="Harina de Soja"/>
+                  <Data value="Semola"/>
+                  <Data value="Leche de Almendras"/>
+                  <Data value="Espelta"/>
+                  <Data value="Ch&#xed;a"/>
+                  <Data value="Crema de almendras"/>
+                </Column>
+                <Column editable="false" title="Calorias" type="java.lang.String">
+                  <Data value="338"/>
+                  <Data value="625"/>
+                  <Data value="534"/>
+                  <Data value="499"/>
+                  <Data value="452"/>
+                  <Data value="349"/>
+                  <Data value="670"/>
+                  <Data value="568"/>
+                  <Data value="563"/>
+                  <Data value="350"/>
+                  <Data value="363"/>
+                  <Data value="121"/>
+                  <Data value="76"/>
+                  <Data value="347"/>
+                  <Data value="193"/>
+                  <Data value="370"/>
+                  <Data value="100"/>
+                  <Data value="364"/>
+                  <Data value="116"/>
+                  <Data value="588"/>
+                  <Data value="166"/>
+                  <Data value="68"/>
+                  <Data value="399"/>
+                  <Data value="22"/>
+                  <Data value="81"/>
+                  <Data value="349"/>
+                  <Data value="290"/>
+                  <Data value="366"/>
+                  <Data value="35"/>
+                  <Data value="434"/>
+                  <Data value="360"/>
+                  <Data value="40"/>
+                  <Data value="338"/>
+                  <Data value="486"/>
+                  <Data value="614"/>
+                </Column>
+                <Column editable="false" title="Grasas" type="java.lang.String">
+                  <Data value="Aguacate"/>
+                  <Data value="Aceitunas"/>
+                  <Data value="Linaza"/>
+                  <Data value="Aceite de Oliva"/>
+                  <Data value="Aceite de Semillas"/>
+                  <Data value="Anacardos"/>
+                  <Data value="Linaza"/>
+                  <Data value="Ch&#xed;a"/>
+                  <Data value="Semillas de Ca&#xf1;amo"/>
+                  <Data value="Semillas de Calabaza"/>
+                  <Data value="Aceite de nuez"/>
+                  <Data value="Espinacas Rehogadas"/>
+                  <Data value="Patatas fritas"/>
+                  <Data value="Brotes de Soja"/>
+                  <Data value="Tofu"/>
+                  <Data value="Avena"/>
+                  <Data value="Semillas de S&#xe9;samo"/>
+                  <Data value="Garbanzo"/>
+                  <Data value="Judias Blancas "/>
+                  <Data value="Lentejas Guisadas"/>
+                  <Data value="Almendra"/>
+                  <Data value="Soja"/>
+                  <Data value="Semillas de lino"/>
+                  <Data value="Man&#xed;"/>
+                  <Data value="Semillas de Girasol"/>
+                  <Data value="Coco Fresco"/>
+                  <Data value="Avellana"/>
+                  <Data value="Harina Integral de Trigo"/>
+                  <Data value="Pi&#xf1;on"/>
+                  <Data value="Harina de Maiz"/>
+                  <Data value="Pistacho"/>
+                  <Data value="&#xd1;oquis"/>
+                  <Data value="Semillas de Amapola"/>
+                  <Data value="Nuez"/>
+                  <Data value="Pipas de Girasol"/>
+                </Column>
+                <Column editable="false" title="Calorias" type="java.lang.String">
+                  <Data value="160"/>
+                  <Data value="115"/>
+                  <Data value="534"/>
+                  <Data value="900"/>
+                  <Data value="900"/>
+                  <Data value="100"/>
+                  <Data value="534"/>
+                  <Data value="486"/>
+                  <Data value="553"/>
+                  <Data value="446"/>
+                  <Data value="884"/>
+                  <Data value="51"/>
+                  <Data value="327"/>
+                  <Data value="58"/>
+                  <Data value="89"/>
+                  <Data value="389"/>
+                  <Data value="563"/>
+                  <Data value="338"/>
+                  <Data value="113"/>
+                  <Data value="120"/>
+                  <Data value="499"/>
+                  <Data value="306"/>
+                  <Data value="524"/>
+                  <Data value="452"/>
+                  <Data value="446"/>
+                  <Data value="296"/>
+                  <Data value="625"/>
+                  <Data value="321"/>
+                  <Data value="568"/>
+                  <Data value="363"/>
+                  <Data value="600"/>
+                  <Data value="246"/>
+                  <Data value="525"/>
+                  <Data value="670"/>
+                  <Data value="560"/>
+                </Column>
+              </Table>
+            </Property>
+            <Property name="autoResizeMode" type="int" value="0"/>
+            <Property name="focusable" type="boolean" value="false"/>
+            <Property name="rowHeight" type="int" value="25"/>
+            <Property name="selectionBackground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="5f" green="39" red="e8" type="rgb"/>
+            </Property>
+            <Property name="selectionForeground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="24" style="3"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ALIMENTOS VEGANOS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calor&#xed;as por 100 gramos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Seleccionar Alimento"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_total2">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="ff" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
